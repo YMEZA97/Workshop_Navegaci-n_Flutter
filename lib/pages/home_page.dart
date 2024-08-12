@@ -27,9 +27,9 @@ class HomePage extends StatelessWidget {
             ],
           ),
         ),
-        body: const TabBarView(
+        body: TabBarView(
           children: [
-            UberContent(),
+            UberContent( const Icon(Icons.favorite)),
             TrainContent(),
             BikeContent(),
           ],
