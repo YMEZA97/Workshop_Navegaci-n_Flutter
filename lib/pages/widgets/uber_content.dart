@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class UberContent extends StatelessWidget {
   Icon icon;
   UberContent(this.icon, {super.key});
